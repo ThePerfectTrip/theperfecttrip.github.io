@@ -1,0 +1,109 @@
+/* -- Content -- */
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.avatar{-webkit-animation: fadein 2s; animation: fadein 2s;}
+.main{padding-top:3%; -webkit-animation: fadein 2s; animation: fadein 2s;}
+.row{padding: 2% 0;}
+.silver{background-color: #90949b;}
+
+body{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1.6em;
+    color: #000;
+}
+h2{
+    font-family: 'Playfair Display',cursive;
+    font-size: 2em;
+    color: #FFF;
+}
+#separate{margin-bottom: 10%;}
+
+header.main_nav{
+    padding: 1% 0;
+    display: block;
+}
+.logo{
+    margin: 5% auto;
+    text-align: center;
+}
+.logo a{
+    font-size: 3em;
+    color: #000;
+    text-decoration: none;
+    border: 3px solid #000;
+    text-transform: uppercase;
+    padding: 2px 10px 0 10px;
+    margin: 0;
+}
+
+.logo a:hover{
+    background-color: #000;
+    color: #90949b;
+}
+
+img{max-width: 100%;}
+img.avatar{
+    border-radius: 500px;
+}
+img:hover{opacity: 0.8;}
+
+ul.social{
+    display: block;
+    margin: 5% 0;
+    list-style-type: none;
+    text-align: center;
+}
+ul.social li{
+    font-size: 1.5em;
+    display: inline;
+    padding: 0 2%;
+}
+ul.social li a{
+    color: #666;
+}
+ul.social li.linkedin a:hover{color: rgb(0,0,0);}
+ul.social li.github a:hover{color: rgb(0,0,0);}
+ul.social li.soundcloud a:hover{color: rgb(0,0,0);}
+
+p.copyright{
+    text-align: center;
+    color: #666;
+    font-size: 1em;
+}
+
+.resume{
+    width: 150px;
+    display: inline-block;
+}
+
+.resume img{
+    float: left;
+    position: relative;
+    padding-left: 43%;
+}
+
+.resume a{
+    color: #666;
+    text-decoration: none;
+    position: relative;
+}
+
+/* Media Queries
+ * ------------------------------------ */
+@media (max-width: 479px) {
+    .logo a{font-size: 2em;}
+    .main{padding-top: 15%;}
+    .portfolio img{margin-bottom: 10%;}
+    img.avatar{margin-top: 15%;}
+    h2.bio{font-size: 1.6em;}
+    p.bio{font-size: 1.3em;}
+}
